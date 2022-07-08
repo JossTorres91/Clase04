@@ -11,3 +11,10 @@ console.log(aMatriz);
 console.log(aMatriz[0][0]);
 
 console.log(aMatriz[2][0]);
+
+console.log("Ejemplo de Split y Join")
+
+const email = "jj.mota.t@me.com";
+const user = email.split("@");
+console.log("Usuario: "+user[0]);
+console.log(user.join(" hola "));
