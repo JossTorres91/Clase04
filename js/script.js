@@ -7,3 +7,7 @@ const cNumber = [5, 1, 1];
 const aMatriz = [aNumber, bNumber, cNumber];
 
 console.log(aMatriz);
+
+console.log(aMatriz[0][0]);
+
+console.log(aMatriz[2][0]);
